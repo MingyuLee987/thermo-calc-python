@@ -128,7 +128,7 @@ def q_mole_fraction_of_phase(phase_name):
     )
 
 
-def q_weight_fraction_of_component_in_phase(component, phase_name):
+def q_weight_fraction_of_component_in_phase(phase_name, component):
     return (
         ThermodynamicQuantity
         .composition_of_phase_as_weight_fraction(
